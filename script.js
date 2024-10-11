@@ -7,5 +7,5 @@ function multiplicar() {
     const numero3 = Number(document.querySelector("#numero-1").value)
 
     const resultado= document.querySelector(".resultado")
-    reswultad
+    resultado.innerHTML=`soma: ${numero1*numero2*numero3}`
 }
